@@ -105,15 +105,6 @@
                         <td><span class="label label-success">도전 완료</span></td>
                       </tr>
                     </tbody>
-                    <tfoot>
-                      <tr>
-                        <th>도전 번호</th>
-                        <th>도전 이름</th>
-                        <th>도전 기관</th>
-                        <th>도전 보상</th>
-                        <th>성공 여부</th>
-                      </tr>
-                    </tfoot>
                   </table>
                 </div><!-- /.box-body -->
                  <div class="box-footer clearfix">
