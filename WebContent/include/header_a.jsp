@@ -250,6 +250,7 @@
                 <li><a href="#"><i class="fa fa-circle-o"></i> 스팩 목록 관리</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 강의 목록 관리</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 포인트 관리 시스템</a></li>
+                 <li><a href="#"><i class="fa fa-circle-o"></i> 쪽지함 관리</a></li>
               </ul>
               <!-- 하위 메뉴 끝 -->
             </li>
@@ -306,9 +307,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 1</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 2</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 3</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 알바 모집 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 대타 모집 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 내가 쓴 글 관리</a></li>
               </ul>
             </li>
             <li>
