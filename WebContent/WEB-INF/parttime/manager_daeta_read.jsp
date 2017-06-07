@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 
-<%@ include file="../include/header.jsp" %>
+<%@ include file="../../include/header.jsp" %>
 <!-- 해더  삽입  [지우지마세여]------------------------------------------------------------------------------------------------->
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
@@ -111,6 +111,7 @@
                   <!-- tools box -->
                   <div class="pull-right box-tools">
                     <button class="btn btn-success btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-success btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
                   </div><!-- /. tools -->
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -134,5 +135,5 @@
       </div><!-- /. 전체를 감싸주는 틀입니다. 지우지 마세여. -->
       
 <!-- 푸터(footer) 삽입 [지우지 마세여] ------------------------------------------------------------------------------------------------------> 
-<%@ include file="../include/footer.jsp" %>
+<%@ include file="../../include/footer.jsp" %>
 <!-- ------------------------------------------------------------------------------------------------ -->

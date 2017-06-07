@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
 
-<%@ include file="../include/header.jsp" %>
+<%@ include file="../../include/header.jsp" %>
 <!-- 해더  삽입  [지우지마세여]------------------------------------------------------------------------------------------------->
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
@@ -14,8 +14,8 @@
 <!----------------------------------- 메인페이지 헤더 [작업 제목] ------------------------------------------------------------->
         <section class="content-header">
           <h1>
-             	알바 채용 글보기
-            <small>알바 채용 모집 공고입니다.</small>
+             	내가 쓴 알바 채용 글보기
+            <small>내가 작성한 알바 채용 모집 공고입니다. 아래에서 지원자를 확인하세요!!</small>
           </h1>
           <ol class="breadcrumb">
           <!-- 페이지 기록 메인에서 부터 현재 페이지 까지의 경로 나열 -->
@@ -88,8 +88,11 @@
               		</div><!-- /.box -->
 					<div class="row">
 						<div class="col-md-4"></div>
-						<div class="col-md-4">
-							<button class="btn btn-block btn-danger">삭제</button>
+						<div class="col-md-2">
+							<button class="btn btn-block btn-primary">수정</button>
+						</div>
+						<div class="col-md-2">
+							<button class="btn btn-block btn-primary">삭제</button>
 						</div>					
                   	</div>
                   </form>
@@ -122,7 +125,54 @@
                 </div>
               </div><!-- /.box -->
 
-
+			  <div class='box box-danger'>
+                <div class='box-header'>
+                  <h3 class='box-title'>지원자 목록</h3><br><br>
+                  <small>나의 게시글에 지원한 사람들의 목록입니다. 채용하고자 하는 사람을 체크하고 채용버튼을 누르면 자동으로 쪽지가 전송됩니다.</small>
+                  
+                  <!-- tools box -->
+                  <div class="pull-right box-tools">
+                    <button class="btn btn-danger btn-sm" data-widget='collapse' data-toggle="tooltip" title="Collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-danger btn-sm" data-widget='remove' data-toggle="tooltip" title="Remove"><i class="fa fa-times"></i></button>
+                  </div><!-- /. tools -->
+                </div><!-- /.box-header -->
+                <div class="box-body">              
+						<table id = "example1" class="table table-bordered table-striped">
+							<tr>
+								<th style="width: 10px">#</th>
+								<th>지원자</th>
+								<th>이력서</th>
+								<th>지원날짜</th>
+								<th>pick</th>
+							</tr>
+							<tr>
+								<td>1</td>
+								<td>나현기</td>
+								<td><button class="btn btn-block btn-danger btn-xs">이력서 보기</button></td>
+								<td>2017-05-30</td>
+								<td><input type="checkbox" name="pick"/></td>
+							</tr>
+						</table>
+					</div>
+					<!-- /.box-body -->
+					<div class="box-footer clearfix">
+						<ul class="pagination pagination-sm no-margin pull-right">
+							<li><a href="#">&laquo;</a></li>
+							<li><a href="#">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">&raquo;</a></li>
+						</ul>
+					</div><!-- /.box -->
+					
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-2">
+							<button class="btn btn-block btn-danger">채용</button>
+						</div>										
+                  	</div>
+                </div>
+                </div><!-- /.box -->
               
             </div><!--/.col -->
         </div><!-- /.row -->
@@ -133,5 +183,5 @@
       </div><!-- /. 전체를 감싸주는 틀입니다. 지우지 마세여. -->
       
 <!-- 푸터(footer) 삽입 [지우지 마세여] ------------------------------------------------------------------------------------------------------> 
-<%@ include file="../include/footer.jsp" %>
+<%@ include file="../../include/footer.jsp" %>
 <!-- ------------------------------------------------------------------------------------------------ -->

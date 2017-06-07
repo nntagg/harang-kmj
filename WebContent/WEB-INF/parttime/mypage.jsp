@@ -3,7 +3,7 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 
-<%@ include file="../include/header.jsp"%>
+<%@ include file="../../include/header.jsp"%>
 <!-- 해더  삽입  [지우지마세여]------------------------------------------------------------------------------------------------->
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
@@ -33,6 +33,7 @@
                   <small>내가 작성한 알바 모집 공고입니다.</small>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -97,6 +98,7 @@
                   <small>내가 작성한 대타 모집 공고입니다.</small>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -160,6 +162,7 @@
                   <small>내가 지원한 알바 목록입니다.</small>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -214,6 +217,7 @@
                   <small>내가 지원한 대타 목록입니다.</small>
                   <div class="box-tools pull-right">
                     <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
                   </div>
                 </div><!-- /.box-header -->
                 <div class="box-body">
@@ -267,7 +271,7 @@
 </div><!-- /. 전체를 감싸주는 틀입니다. 지우지 마세여. -->
 
 <!-- 푸터(footer) 삽입 [지우지 마세여] ------------------------------------------------------------------------------------------------------>
-<%@ include file="../include/footer.jsp"%>
+<%@ include file="../../include/footer.jsp"%>
 
 <!-- --------------------------------------------------------------------------------------------------- -->
 
