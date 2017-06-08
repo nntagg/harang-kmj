@@ -15,12 +15,12 @@
 	<!----------------------------------- 메인페이지 헤더 [작업 제목] ------------------------------------------------------------->
 	<section class="content-header">
 		<h1>
-			일정등록 <small>관리자가 일정등록하는 곳</small>
+			대나무숲 <small>관리자가 대숲 글 쓰는 곳 관리자의 경우 공지사항 등록 활성화</small>
 		</h1>
 		<ol class="breadcrumb">
 			<!-- 페이지 기록 : 메인에서 부터 현재 페이지 까지의 경로 나열 -->
 			<li><a href="#"><i class="fa fa-dashboard"></i> 메인</a></li>
-			<li class="active">학사일정</li>
+			<li class="active">대나무숲</li>
 		</ol>
 	</section>
 	<!------------------------------------ 메인페이지 바디 [작업 내용] ------------------------------------------------------------>
@@ -33,93 +33,29 @@
 
 					<div class='box box-info'>
 						<div class='box-header'>
-							<h3 class='box-title'>학사일정 등록</h3>
+							<h3 class='box-title'>대나무숲 글 등록</h3>
 							<br> <br>
 							<!-- tools box -->
 
 							<div class="form-group">
 								<label>제목</label> <input type="text" class="form-control"
-									placeholder="ex)중간고사 일정 안내" />
+									placeholder="제목을 입력 해 주세요" />
 							</div>
 
-							<div class="row">
-								<div class="col-md-3 form-group">
-									<label>학과</label> <select class="form-control">
-										<option>[전체학과]</option>
-										<option>[국문과]</option>
-										<option>[수학과]</option>
-										<option>[경영학과]</option>
-										<option>[시각디자인과]</option>
-										<option>[컴퓨터공학과]</option>
-									</select>
-								</div>
-
-							</div>
-
-							<div class="row">
-								<div class="col-md-6 form-group">
-									<label>일정시작일</label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar"></i>
-										</div>
-										<input type="text" class="form-control pull-right"
-											id="reservation" />
-									</div>
-									<!-- /.input group -->
-								</div>
-								<div class="col-md-6 form-group">
-									<label>일정종료일</label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar"></i>
-										</div>
-										<input type="text" class="form-control pull-right"
-											id="reservation" />
-									</div>
-									<!-- /.input group -->
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-6 form-group">
-									<label>신청시작일</label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar"></i>
-										</div>
-										<input type="text" class="form-control pull-right"
-											id="reservation" />
-									</div>
-									<!-- /.input group -->
-								</div>
-								<div class="col-md-6 form-group">
-									<label>신청종료일</label>
-									<div class="input-group">
-										<div class="input-group-addon">
-											<i class="fa fa-calendar"></i>
-										</div>
-										<input type="text" class="form-control pull-right"
-											id="reservation" />
-									</div>
-									<!-- /.input group -->
-								</div>
-							</div>
+							
+							
+							
 							<div class="row">
 								<div class="col-md-2 form-group">
 									<div class="checkbox">
-										<label> <input type="checkbox">포인트 지급
+										<label> <input type="checkbox">공지사항 등록
 										</label>
 									</div>
 
 
 
 								</div>
-								<div class="col-md-6 form-group">
-
-									<input class="form-control" type="text"
-										placeholder="지급할 포인트를 입력하세요">
-
-								</div>
+								
 							</div>
 
 						</div>
