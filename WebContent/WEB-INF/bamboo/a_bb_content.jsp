@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
-<%@ include file="../include/header.jsp"%>
+<%@ include file="../include/a_header.jsp"%>
 <title>대나무숲 리스트+컨텐츠 관리자페이지</title>
 </head>
 

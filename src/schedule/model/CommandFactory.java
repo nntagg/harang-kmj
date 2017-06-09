@@ -24,9 +24,13 @@ public class CommandFactory
 		{
 			return new A_Sch_Post_Command();
 		}
-		else if(cmd.equals("Sch_LIST"))
+		else if(cmd.equals("A_SCH_LIST"))
 		{
-			return new Sch_List_Command();
+			return new A_Sch_List_Command();
+		}
+		else if(cmd.equals("U_SCH_LIST"))
+		{
+			return new U_Sch_List_Command();
 		}
 		
 		

@@ -44,7 +44,7 @@ public class CommandFactory
 		{
 			return new A_Bb_Update_Command();
 		}
-		else if(cmd.equals("A_BB_List"))
+		else if(cmd.equals("A_BB_LIST"))
 		{
 			return new A_Bb_List_Command();
 		}

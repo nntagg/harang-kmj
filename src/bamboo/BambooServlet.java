@@ -9,8 +9,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import message.model.CommandFactory;
-import message.model.CommandInterface;
+import bamboo.model.CommandFactory;
+import bamboo.model.CommandInterface;
 
 
 
