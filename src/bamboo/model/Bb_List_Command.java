@@ -16,7 +16,7 @@ public class Bb_List_Command implements CommandInterface
 		// 관리자면 대나무숲 관리자 리스트 페이지(=관리자 메인페이지) 로 이동
 		if (m_id.equals("a")) 
 		{
-			return "WEB-INF/bamboo/a_bb_list.jsp";
+			return "/WEB-INF/bamboo/a_bb_list.jsp";
 		} 
 
 		// 학생이면 user 대숲 리스트 페이지 (=일반회원 메인페이지) 로 이동
