@@ -250,6 +250,7 @@
                 <li><a href="#"><i class="fa fa-circle-o"></i> 수강 시간표!</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 포인트 거래 내역</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 학비 포인트 제로!</a></li>
+                <li><a href="/HarangProject/message?cmd=INBOX"><i class="fa fa-circle-o"></i> 쪽지함</a></li>
               </ul>
               <!-- 하위 메뉴 끝 -->
             </li>
@@ -306,9 +307,9 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 1</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 2</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 하위메뉴 3</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 알바 모집</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 대타 모집</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 내가 쓴 글</a></li>
               </ul>
             </li>
             <li>

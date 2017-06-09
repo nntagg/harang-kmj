@@ -31,7 +31,7 @@
            <div class="col-md-9">
         	 <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">받은 쪽지</h3>
+                  <h3 class="box-title">받은 쪽지함</h3>
                   <div class="box-tools pull-right">
                     <div class="has-feedback">
                       <input type="text" class="form-control input-sm" placeholder="Search Mail"/>
@@ -62,7 +62,6 @@
                       <tbody>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -70,7 +69,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -78,7 +76,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -86,7 +83,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -94,7 +90,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -102,7 +97,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -110,7 +104,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -118,7 +111,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -126,7 +118,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -134,7 +125,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -142,7 +132,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -150,7 +139,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"></td>
@@ -158,7 +146,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star-o text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -166,7 +153,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -174,7 +160,6 @@
                         </tr>
                         <tr>
                           <td><input type="checkbox" /></td>
-                          <td class="mailbox-star"><a href="#"><i class="fa fa-star text-yellow"></i></a></td>
                           <td class="mailbox-name"><a href="read-mail.html">Alexander Pierce</a></td>
                           <td class="mailbox-subject"><b>AdminLTE 2.0 Issue</b> - Trying to find a solution to this problem...</td>
                           <td class="mailbox-attachment"><i class="fa fa-paperclip"></i></td>
@@ -204,17 +189,10 @@
                   </div>
                 </div>
               </div><!-- /. box -->
-        
-        
- 
-
-
               </div><!-- /.col -->
               
               <!-- 오른쪽에 메시지 탭 바 구성 -->
-              <div class="col-md-3">
-              <%@ include file="message_bar.jsp" %>
-              </div>
+              <%@ include file="message_bar_inbox.jsp" %>
            </div><!-- /.row -->
         </section><!-- /. 작업 공간 끝! -->
 <!------------------------------------------------------------------------------------------------------------------->        

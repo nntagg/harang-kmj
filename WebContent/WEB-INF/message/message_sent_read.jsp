@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<%@ include file="../include/header.jsp" %>
+<%@ include file="../../include/header.jsp" %>
 <!-- 해더  삽입  [지우지마세여]------------------------------------------------------------------------------------------------->
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
@@ -31,7 +31,7 @@
            <div class="col-md-9">
         	 <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">받은 메일 읽기</h3>
+                  <h3 class="box-title">보낸 쪽지 읽기</h3>
                   <div class="box-tools pull-right">
                     <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Previous"><i class="fa fa-chevron-left"></i></a>
                     <a href="#" class="btn btn-box-tool" data-toggle="tooltip" title="Next"><i class="fa fa-chevron-right"></i></a>
@@ -62,12 +62,13 @@
            </div><!-- /.col -->
               
            <!-- 오른쪽에 메시지 탭 바 구성 -->
-           <%@ include file="message_bar_inbox.jsp" %>
+           <%@ include file="message_bar_sent.jsp" %>
            
+             </div>
            </div><!-- /.row -->
         </section><!-- /. 작업 공간 끝! -->
 <!------------------------------------------------------------------------------------------------------------------->        
       </div><!-- /. 전체를 감싸주는 틀입니다. 지우지 마세여. -->
       
 <!-- 푸터(footer) 삽입 [지우지 마세여] ------------------------------------------------------------------------------------------------------> 
-<%@ include file="../include/footer.jsp" %>
+<%@ include file="../../include/footer.jsp" %>

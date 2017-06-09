@@ -2,7 +2,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-<%@ include file="../include/header.jsp" %>
+<%@ include file="../../include/header.jsp" %>
 <!-- 해더  삽입  [지우지마세여]------------------------------------------------------------------------------------------------->
 <!-- 페이지 헤드 라인 : 제목 -->
 <head>
@@ -31,7 +31,7 @@
            <div class="col-md-9">
         	 <div class="box box-primary">
                 <div class="box-header with-border">
-                  <h3 class="box-title">받은 쪽지함</h3>
+                  <h3 class="box-title">내게 쓴 쪽지함</h3>
                   <div class="box-tools pull-right">
                     <div class="has-feedback">
                       <input type="text" class="form-control input-sm" placeholder="Search Mail"/>
@@ -192,25 +192,12 @@
               </div><!-- /.col -->
               
               <!-- 오른쪽에 메시지 탭 바 구성 -->
-              <div class="col-md-3">
-              <a href="compose.html" class="btn btn-primary btn-block margin-bottom">쪽지쓰기</a>
-              <div class="box box-solid">
-                
-                <div class="box-body no-padding">
-                  <ul class="nav nav-pills nav-stacked">
-                    <li class="active"><a href="#"><i class="fa fa-inbox"></i> 받은 쪽지함 <span class="label label-primary pull-right">12</span></a></li>
-                    <li><a href="#"><i class="fa fa-envelope-o"></i> 보낸 쪽지함</a></li>
-                    <li><a href="#"><i class="fa fa-file-text-o"></i> 내게 쓴 쪽지함 </a></li>
-                    <li><a href="#"><i class="fa fa-filter"></i> 스팸 쪽지함 <span class="label label-waring pull-right">65</span></a></li>
-                    <li><a href="#"><i class="fa fa-trash-o"></i> 휴지통</a></li>
-                  </ul>
-                </div><!-- /.box-body -->
-              </div><!-- /. box -->
-              </div>
+              <%@ include file="message_bar_sent.jsp" %>
+              
            </div><!-- /.row -->
         </section><!-- /. 작업 공간 끝! -->
 <!------------------------------------------------------------------------------------------------------------------->        
       </div><!-- /. 전체를 감싸주는 틀입니다. 지우지 마세여. -->
       
 <!-- 푸터(footer) 삽입 [지우지 마세여] ------------------------------------------------------------------------------------------------------> 
-<%@ include file="../include/footer.jsp" %>
+<%@ include file="../../include/footer.jsp" %>
