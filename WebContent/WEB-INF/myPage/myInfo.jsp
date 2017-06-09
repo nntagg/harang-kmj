@@ -46,7 +46,7 @@
 	                   <input type="file" id="exampleInputFile" required="required">
 	                </span>
                     <span class="input-group-addon  bg-gray">
-	                    <img src="../dist/img/TL.jpg" class="img-circle" height="90" width="90" alt="User Image"/>
+	                    <img src="dist/img/TL.jpg" class="img-circle" height="90" width="90" alt="User Image"/>
 	                </span>
                   </div>
                   <br>

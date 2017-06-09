@@ -7,33 +7,33 @@
     <meta charset="UTF-8">
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <!-- Bootstrap 3.3.2 -->
-    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- Font Awesome Icons -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <!-- Ionicons -->
     <link href="http://code.ionicframework.com/ionicons/2.0.0/css/ionicons.min.css" rel="stylesheet" type="text/css" />
     <!-- fullCalendar 2.2.5-->
-    <link href="../plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
-    <link href="../plugins/fullcalendar/fullcalendar.print.css" rel="stylesheet" type="text/css" media='print' />
+    <link href="plugins/fullcalendar/fullcalendar.min.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/fullcalendar/fullcalendar.print.css" rel="stylesheet" type="text/css" media='print' />
     <!-- Theme style -->
-    <link href="../dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/AdminLTE.min.css" rel="stylesheet" type="text/css" />
     <!-- AdminLTE Skins. Choose a skin from the css/skins 
          folder instead of downloading all of them to reduce the load. -->
-    <link href="../dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
+    <link href="dist/css/skins/_all-skins.min.css" rel="stylesheet" type="text/css" />
     <!-- iCheck -->
-    <link href="../plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/iCheck/flat/blue.css" rel="stylesheet" type="text/css" />
      <!-- Morris chart -->
-    <link href="../plugins/morris/morris.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/morris/morris.css" rel="stylesheet" type="text/css" />
      <!-- jvectormap -->
-    <link href="../plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" type="text/css" />
     <!-- Date Picker -->
-    <link href="../plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/datepicker/datepicker3.css" rel="stylesheet" type="text/css" />
     <!-- Daterange picker -->
-    <link href="../plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/daterangepicker/daterangepicker-bs3.css" rel="stylesheet" type="text/css" />
     <!-- bootstrap wysihtml5 - text editor -->
-    <link href="../plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" rel="stylesheet" type="text/css" />
      <!-- DATA TABLES -->
-    <link href="../plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -46,7 +46,7 @@
     <div class="wrapper">
       <header class="main-header">
         <!-- Logo -->
-        <a href="#" class="logo"><img src="../dist/img/Logo.png" class="img-circle" alt="User Image" width="40" height="40"/>&nbsp;하랑 대학교</a>
+        <a href="#" class="logo"><img src="dist/img/Logo.png" class="img-circle" alt="User Image" width="40" height="40"/>&nbsp;하랑 대학교</a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
@@ -125,7 +125,7 @@
                       <li><!-- 메세지 시작 -->
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
                           </div>
                           <h4>
                                                             김성지
@@ -138,7 +138,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                         양혜민
@@ -150,7 +150,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                             서지윤
@@ -162,7 +162,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                            박주선
@@ -250,11 +250,7 @@
                 <li><a href="#"><i class="fa fa-circle-o"></i> 수강 시간표!</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 포인트 거래 내역</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 학비 포인트 제로!</a></li>
-<<<<<<< HEAD
-                <li><a href="/HarangProject/message?cmd=INBOX"><i class="fa fa-circle-o"></i> 쪽지함</a></li>
-=======
-                <li><a href="#"><i class="fa fa-circle-o"></i> 쪽지 함</a></li>
->>>>>>> refs/remotes/origin/Nahuynkee
+                <li><a href="/HarangProject/message?cmd=INBOX"><i class="fa fa-circle-o"></i> 쪽지 함</a></li>
               </ul>
               <!-- 하위 메뉴 끝 -->
             </li>
@@ -263,7 +259,7 @@
               <a href="#">
                 <i class="fa fa-calendar"></i>
                 <span>학사일정</span>
-                <i class="fa fa-angle-left pull-right"></i>
+                <i class="fa fa-arrow-right pull-right"></i>
               </a>
             </li>
             <li class="treeview">
@@ -306,27 +302,21 @@
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-<<<<<<< HEAD
-                <li><a href="#"><i class="fa fa-circle-o"></i> 알바 모집</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 대타 모집</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 내가 쓴 글</a></li>
-=======
                 <li><a href="/HarangProject/parttime?cmd=PMAIN"><i class="fa fa-circle-o"></i> 알바 모집</a></li>
                 <li><a href="/HarangProject/parttime?cmd=DMAIN"><i class="fa fa-circle-o"></i> 대타 모집</a></li>
                 <li><a href="/HarangProject/parttime?cmd=MYPAGE"><i class="fa fa-circle-o"></i> 내가 쓴 글</a></li>
->>>>>>> refs/remotes/origin/Nahuynkee
               </ul>
             </li>
             <li>
               <a href="#">
                 <i class="fa fa-group"></i><span>하랑 대나무 숲</span>
-                <i class="fa fa-angle-left pull-right"></i>
+                <i class="fa fa-arrow-right pull-right"></i>
               </a>
             </li>
             <li>
               <a href="#">
                 <i class="fa fa-book"></i> <span>하랑딘 24</span>
-                <i class="fa fa-angle-left pull-right"></i>
+                <i class="fa fa-arrow-right pull-right"></i>
               </a>
             </li>
           </ul>

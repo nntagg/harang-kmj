@@ -42,11 +42,11 @@
     <![endif]-->
   </head>
   <!-- 스킨 색상 변경 가능 : white, yellow, red, purple -->
-   <body class="skin-black">
+   <body class="skin-yellow">
     <div class="wrapper">
       <header class="main-header">
         <!-- Logo -->
-        <a href="#" class="logo"><img src="../dist/img/Logo.png" class="img-circle" alt="User Image" width="40" height="40"/>&nbsp;하랑 대학교</a>
+        <a href="#" class="logo"><img src="dist/img/Logo.png" class="img-circle" alt="User Image" width="40" height="40"/>&nbsp;하랑 대학교</a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top" role="navigation">
           <!-- Sidebar toggle button-->
@@ -125,7 +125,7 @@
                       <li><!-- 메세지 시작 -->
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image"/>
                           </div>
                           <h4>
                                                             김성지
@@ -138,7 +138,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user3-128x128.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                         양혜민
@@ -150,7 +150,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user4-128x128.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                             서지윤
@@ -162,7 +162,7 @@
                       <li>
                         <a href="#">
                           <div class="pull-left">
-                            <img src="../dist/img/user2-160x160.jpg" class="img-circle" alt="user image"/>
+                            <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="user image"/>
                           </div>
                           <h4>
                                                            박주선
@@ -191,15 +191,15 @@
               <!--회원 개인정보 요약 형태 -->
               <li class="dropdown user user-menu">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                  <img src="dist/img/TL.jpg" class="user-image" alt="User Image"/>
-                  <span class="hidden-xs">나현기 - 국문학과</span>
+                  <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image"/>
+                  <span class="hidden-xs">관리자 A</span>
                 </a>
                 <ul class="dropdown-menu">
                   <!-- 회원 사진 -->
                   <li class="user-header">
-                    <img src="dist/img/TL.jpg" class="img-circle" alt="User Image" />
+                    <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image" />
                     <p>
-                        나현기 - 국문학과
+                       관리자 A
                       <small>Member since Nov. 2017</small>
                     </p>
                   </li>
@@ -240,21 +240,16 @@
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-eye"></i>
-                <span>마이페이지</span>
+                <span>회원 포인트 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <!-- 하위 메뉴 시작 -->
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> 개인정보조회</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 스팩 업!</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 수강 시간표!</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 포인트 거래 내역</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 학비 포인트 제로!</a></li>
-<<<<<<< HEAD
-                <li><a href="/HarangProject/message?cmd=INBOX"><i class="fa fa-circle-o"></i> 쪽지함</a></li>
-=======
-                <li><a href="#"><i class="fa fa-circle-o"></i> 쪽지 함</a></li>
->>>>>>> refs/remotes/origin/Nahuynkee
+                <li><a href="#"><i class="fa fa-circle-o"></i> 회원 정보 조회</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 스팩 업 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 스팩 목록 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 강의 목록 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 포인트 관리 시스템</a></li>
               </ul>
               <!-- 하위 메뉴 끝 -->
             </li>
@@ -262,36 +257,36 @@
             <li class="threeview">
               <a href="#">
                 <i class="fa fa-calendar"></i>
-                <span>학사일정</span>
+                <span>학사 일정 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-share-square-o"></i>
-                <span>학교시설물</span>
+                <span>학교 시설물 등록 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> 운동장 예약</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 스터디룸 예약</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 운동장 목록 관리</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 스터디룸 목록 관리</a></li>
                 <li><a href="#"><i class="fa fa-circle-o"></i> 예약 내역</a></li>
               </ul>
             </li>
             <li class="treeview">
               <a href="#">
                 <i class="fa fa-cutlery"></i>
-                <span>하랑 레스토랑</span>
+                <span>하랑 레스토랑 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-                <li><a href="#"><i class="fa fa-circle-o"></i> 학식 메뉴 조회</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 식권 구매 내역</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 메뉴 등록/수정</a></li>
+                <li><a href="#"><i class="fa fa-circle-o"></i> 식권 판매 내역</a></li>
               </ul>
             </li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-check-square-o"></i> <span>강의 평가</span>
+                <i class="fa fa-check-square-o"></i> <span>강의 평가 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
@@ -302,30 +297,23 @@
             </li>
             <li class="treeview">
               <a href="#">
-                <i class="fa fa-briefcase"></i> <span>알바 하랑</span>
+                <i class="fa fa-briefcase"></i> <span>알바 하랑 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
               <ul class="treeview-menu">
-<<<<<<< HEAD
-                <li><a href="#"><i class="fa fa-circle-o"></i> 알바 모집</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 대타 모집</a></li>
-                <li><a href="#"><i class="fa fa-circle-o"></i> 내가 쓴 글</a></li>
-=======
-                <li><a href="/HarangProject/parttime?cmd=PMAIN"><i class="fa fa-circle-o"></i> 알바 모집</a></li>
-                <li><a href="/HarangProject/parttime?cmd=DMAIN"><i class="fa fa-circle-o"></i> 대타 모집</a></li>
-                <li><a href="/HarangProject/parttime?cmd=MYPAGE"><i class="fa fa-circle-o"></i> 내가 쓴 글</a></li>
->>>>>>> refs/remotes/origin/Nahuynkee
+                <li><a href="/HarangProject/parttime?cmd=PMAIN"><i class="fa fa-circle-o"></i> 알바 모집 관리</a></li>
+                <li><a href="/HarangProject/parttime?cmd=DMAIN"><i class="fa fa-circle-o"></i> 대타 모집 관리</a></li>
               </ul>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-group"></i><span>하랑 대나무 숲</span>
+                <i class="fa fa-group"></i><span>하랑 대나무 숲 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
             <li>
               <a href="#">
-                <i class="fa fa-book"></i> <span>하랑딘 24</span>
+                <i class="fa fa-book"></i> <span>하랑딘 24 관리</span>
                 <i class="fa fa-angle-left pull-right"></i>
               </a>
             </li>
